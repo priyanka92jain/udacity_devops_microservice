@@ -1,5 +1,5 @@
 # udacity_devops_microservice
-[![CircleCI](https://circleci.com/ghpriyanka92jain/udacity_devops_microservice/tree/master.svg?style=svg)](https://circleci.com/gh/priyanka92jain/udacity_devops_microservice/tree/master)
+[![CircleCI](https://circleci.com/gh/priyanka92jain/udacity_devops_microservice/tree/master.svg?style=svg)](https://circleci.com/gh/priyanka92jain/udacity_devops_microservice/tree/master)
 # Cloud DevOps Engineer Nanodegree - Operationalize a Machine Learning Microservice API
 
 ## Project Overview
