@@ -1,1 +1,6 @@
-<paste log output from Kubernetes-mediated prediction, here>
+ubuntu@ip-172-31-32-230:/tmp/udacity_devops_microservice$ kubectl get pods
+NAME                    READY   STATUS    RESTARTS   AGE
+udacity-microservices   1/1     Running   1          44m
+
+
+
