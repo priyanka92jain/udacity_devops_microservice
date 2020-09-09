@@ -3,4 +3,45 @@ NAME                    READY   STATUS    RESTARTS   AGE
 udacity-microservices   1/1     Running   1          44m
 
 
+Status:       Running
+IP:           172.18.0.2
+IPs:
+  IP:  172.18.0.2
+Containers:
+  udacity-microservices:
+    Container ID:   docker://a4f91356e33b0ab199678c3676ab1d260017accef8243e533660923cedcddd1f
+    Image:          jainprg/udacity-microservices
+    Image ID:       docker-pullable://jainprg/udacity-microservices@sha256:ff8a330b55c41412773f4b1339564d530716ed0e35e76170                                             d4b97ec24e9581b6
+    Port:           8000/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Wed, 09 Sep 2020 09:36:47 +0000
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-l4jvb (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             True
+  ContainersReady   True
+  PodScheduled      True
+Volumes:
+  default-token-l4jvb:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-l4jvb
+    Optional:    false
+QoS Class:       BestEffort
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                 node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age   From               Message
+  ----    ------     ----  ----               -------
+  Normal  Scheduled  25m                      Successfully assigned default/udacity-microservices to minikube
+  Normal  Pulling    25m   kubelet, minikube  Pulling image "jainprg/udacity-microservices"
+  Normal  Pulled     25m   kubelet, minikube  Successfully pulled image "jainprg/udacity-microservices" in 233.14524ms
+  Normal  Created    25m   kubelet, minikube  Created container udacity-microservices
+  Normal  Started    25m   kubelet, minikube  Started container udacity-microservices
 
